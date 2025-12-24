@@ -3,3 +3,5 @@ numpy
 trimesh
 ezdxf
 scipy
+plotly
+networkx

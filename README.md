@@ -9,10 +9,12 @@ Ideal for generating laser cutting profiles, CNC paths, or floor plans from 3D m
 ![App Screenshot](screenshot.png)
 
 ## ✨ Features
+- **Interactive 3D Viewer**: Visualize the model (green) and the cut path (red) in real-time.
+- **Precise Slicing**: Use the slider to pick the exact height/position of the cut.
 - **Easy to Use**: Drag and drop your `.stl` file.
-- **Auto-Slicing**: Automatically slices the mesh at its center.
-- **Axis Selection**: Choose to slice along the X, Y, or Z axis to get the right profile.
-- **Instant Preview**: Shows mesh statistics (vertices/faces) and bounds.
+- **Auto-Slicing**: Automatically slices the mesh at its center (default).
+- **Axis Selection**: Choose to slice along the X, Y, or Z axis.
+- **Instant Preview**: Shows mesh statistics and bounding box.
 - **Cross-Platform**: Runs in your browser, works on Windows, Mac, and Linux.
 
 > [!NOTE] 
@@ -43,6 +45,7 @@ The app will open automatically in your web browser at `http://localhost:8501`.
 ## 🛠️ Built With
 - **[Streamlit](https://streamlit.io/)** - For the web interface.
 - **[Trimesh](https://trimesh.org/)** - For loading and slicing 3D meshes.
+- **[Plotly](https://plotly.com/python/)** - For interactive 3D visualization.
 - **[Ezdxf](https://ezdxf.mozman.at/)** - For creating valid DXF files.
 - **[NumPy](https://numpy.org/)** - For high-performance vector math.
 
