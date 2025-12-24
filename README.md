@@ -24,7 +24,7 @@ You can run this app on your own machine using Python.
 
 1.  **Clone the repository:**
     ```bash
-    git clone https://github.com/YOUR_USERNAME/stl-to-dxf-converter.git
+    git clone https://github.com/evanofficial/stl-to-dxf-converter.git
     cd stl-to-dxf-converter
     ```
 
