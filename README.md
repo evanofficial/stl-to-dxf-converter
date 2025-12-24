@@ -9,16 +9,15 @@ Ideal for generating laser cutting profiles, CNC paths, or floor plans from 3D m
 ![App Screenshot](screenshot.png)
 
 ## ✨ Features
-- **Interactive 3D Viewer**: Visualize the model (green) and the cut path (red) in real-time.
-- **Precise Slicing**: Use the slider to pick the exact height/position of the cut.
-- **Easy to Use**: Drag and drop your `.stl` file.
-- **Auto-Slicing**: Automatically slices the mesh at its center (default).
-- **Axis Selection**: Choose to slice along the X, Y, or Z axis.
-- **Instant Preview**: Shows mesh statistics and bounding box.
-- **Cross-Platform**: Runs in your browser, works on Windows, Mac, and Linux.
+- **🎯 Precise Manual Slicing**: The standout feature! Use the interactive slider to pick the **exact height** of the cut. Perfect for models with multiple extrusions or levels.
+- **👀 Interactive 3D Viewer**: Visualize your model in 3D (green) and see the exact **cut path (red)** update in real-time as you move the slider.
+- **🔄 Multi-Axis Support**: Slice along the X, Y, or Z axis to capture the correct profile.
+- **📂 Easy Workflow**: Drag and drop your `.stl` file and get an instant `.dxf` download.
+- **📊 Instant Stats**: See vertex/face counts and bounding box dimensions immediately.
+- **🌐 Cross-Platform**: Run it in your browser anywhere (Windows, Mac, Linux).
 
 > [!NOTE] 
-> This tool is designed for **uniform extrusions** (prismatic shapes). It works by slicing the mesh through the center. Irregular, tapered, or organic shapes may not yield a valid 2D sketch.
+> This tool is best suited for **prismatic shapes** (extrusions). Because you can **manually select the slice height**, you can easily extract profiles from different levels of a stacked model (e.g., a base plate vs. a top detail) by downloading them as separate DXF files.
 
 ## 🚀 How to Run Locally
 
