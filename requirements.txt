@@ -1,0 +1,5 @@
+streamlit
+numpy
+trimesh
+ezdxf
+scipy
