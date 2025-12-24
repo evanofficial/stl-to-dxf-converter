@@ -1,6 +1,6 @@
 # 📐 STL to DXF Converter
 
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io)
+[![Try It Online](https://img.shields.io/badge/Try%20It-Online-success?style=for-the-badge&logo=streamlit)](https://stl-to-dxf-converter.streamlit.app/)
 [![Python](https://img.shields.io/badge/Python-3.12-blue)](https://www.python.org/)
 
 A simple, open-source web application to convert 3D **STL** files into 2D **DXF** sketches.  
